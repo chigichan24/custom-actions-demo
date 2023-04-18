@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val chooser = Intent.createChooser(intent, "Share").apply {
-            putExtra(Intent.EXTRA_CHOOSER_CUSTOM_ACTIONS, chooserAction)
+            putExtra(Intent.EXTRA_CHOOSER_CUSTOM_ACTIONS, arrayOf(chooserAction))
         }
         startActivity(chooser)
     }
