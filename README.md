@@ -1,5 +1,5 @@
 # custom-actions-demo
-The demo repository about custom actions on sharesheet which is new feature on Android14.
+A demo repository about custom actions on sharesheet which is new feature on Android14.
 https://developer.android.com/about/versions/14/features#add-custom-actions
 
 ## Demo video
